@@ -16,7 +16,7 @@ export default function App() {
     range.insertNode(h);
   };
   const changeFontWeight = (fontWeight) => {
-    if (!selectedText) alert('select a text for change font weight');
+    if (!selectedText) alert('select a text for change font style');
     const range = window.getSelection().getRangeAt(0);
     if (fontWeight === 'normal') {
       const textNode = document.createTextNode(selectedText);
